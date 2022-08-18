@@ -1,3 +1,13 @@
+# terraform {
+#   cloud {
+#     organization = "trkin"
+
+#     workspaces {
+#       name = "learn-private-module-root-cli"
+#     }
+#   }
+# }
+
 provider "aws" {
   region = var.region
 }
